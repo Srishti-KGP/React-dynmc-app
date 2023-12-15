@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "react": "16.1.1",
-    "react-dom": "16.1.1",
-    "react-slick": "0.23.1",
-    "react-router-dom": "4.3.1"
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-router-dom": "4.3.1",
+    "react-slick": "0.23.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -15,18 +15,9 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "react-scripts": "latest"
+    "react-scripts": "^3.0.1"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "browserslist": [
+    "defaults"
+  ]
 }
